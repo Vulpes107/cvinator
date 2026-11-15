@@ -1,0 +1,8 @@
+# The four folders are kept in the repo (via .gitkeep) but their contents are not.
+# personal data: original CV, career profile, CV template with photo and contact details
+input/*
+profile/*
+template/*
+# generated per job posting (CV PDFs, research, fit, review)
+applications/*
+!*/.gitkeep
