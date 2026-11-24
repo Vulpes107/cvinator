@@ -1,14 +1,14 @@
 ---
-name: cv-apply
+name: apply
 description: Produce a CV tailored to one job posting. Takes a posting URL or pasted posting text, researches the company, the role and the pay, checks the user's fit, asks about gaps, and writes the final PDF into a new folder under applications/. Use whenever the user shares a job posting or asks for a CV for a specific job.
 argument-hint: <posting URL or pasted posting text>
 ---
 
-# cv-apply
+# apply
 
 Posting: $ARGUMENTS
 
-Read `CLAUDE.md` rules, `cv-guidelines.md` and `profile/profile.md` first. If the profile or `template/cv.html` does not exist, run the cv-intake skill and come back.
+Read `CLAUDE.md` rules, `cv-guidelines.md` and `profile/profile.md` first. If the profile or `template/cv.html` does not exist, run the intake skill and come back.
 
 Goal: the highest honest chance of an interview. Honest means every line is true and the user could defend it in the interview.
 
@@ -108,4 +108,4 @@ The other files are not for the user, so say what matters here, briefly:
 - pay: market range, what to ask for, benefits to expect, sources
 - anything the user must answer themselves on the application form (knockout questions), truthfully
 - photo note once if the posting is in the UK, Ireland, US or Canada
-- that `/cv-review` gives an independent screening check of this CV
+- that `/screen` gives an independent screening check of this CV

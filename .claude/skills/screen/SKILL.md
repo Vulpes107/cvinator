@@ -1,10 +1,10 @@
 ---
-name: cv-review
-description: Judge a finished CV against its job posting the way a screener would - what could get it filtered out, ranked low or skipped by a recruiter, and what would improve it. Use after cv-apply, or when the user asks to review, check, score or critique a CV for a posting.
+name: screen
+description: Judge a finished CV against its job posting the way a screener would - what could get it filtered out, ranked low or skipped by a recruiter, and what would improve it. Use after apply, or when the user asks to review, check, score or critique a CV for a posting.
 argument-hint: [run folder name, default: the newest folder in applications/]
 ---
 
-# cv-review
+# screen
 
 Run: $ARGUMENTS (empty = the most recently modified folder in `applications/`)
 
@@ -52,4 +52,4 @@ Severity:
 
 ## 4. Report in chat
 
-Short and ranked: the verdict in one sentence, then blockers, then majors, each with the proposed fix. Minor points as one line. End by listing the fixes you can apply right now from the profile and the questions that need the user. Apply fixes only when the user agrees; after applying, re-render with `./render.sh`, repeat the checks from cv-apply step 7, and run the humanize skill on any reworded text.
+Short and ranked: the verdict in one sentence, then blockers, then majors, each with the proposed fix. Minor points as one line. End by listing the fixes you can apply right now from the profile and the questions that need the user. Apply fixes only when the user agrees; after applying, re-render with `./render.sh`, repeat the checks from apply step 7, and run the humanize skill on any reworded text.

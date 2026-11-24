@@ -14,9 +14,9 @@ sudo apt install -y poppler-utils chromium
 
 Open Claude Code in this folder, then:
 
-1. Put your current CV (PDF) in `input/` and run `/cv-intake`. Answer its questions once.
-2. For each job, run `/cv-apply` followed by the posting's text (paste it; links to LinkedIn usually don't load).
-3. Optional: run `/cv-review` for an independent check of what could get the CV filtered out.
+1. Put your current CV (PDF) in `input/` and run `/intake`. Answer its questions once.
+2. For each job, run `/apply` followed by the posting's text (paste it; links to LinkedIn usually don't load).
+3. Optional: run `/screen` for an independent check of what could get the CV filtered out.
 
 Your CV lands in `applications/<date>_<company>_<role>/` as a PDF. Every run is kept.
 

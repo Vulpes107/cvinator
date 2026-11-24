@@ -4,10 +4,10 @@ Turns one person's career data into a CV tailored to a specific job posting. The
 
 ## Commands
 
-- `/cv-intake` — first-time setup or update: reads everything in `input/`, builds `profile/profile.md`, rebuilds the original CV as `template/cv.html`, interviews the user about gaps.
-- `/cv-apply <posting URL or pasted text>` — researches the company, role and pay, checks fit, asks the user about gaps, writes the tailored CV PDF into a new folder under `applications/`.
+- `/intake` — first-time setup or update: reads everything in `input/`, builds `profile/profile.md`, rebuilds the original CV as `template/cv.html`, interviews the user about gaps.
+- `/apply <posting URL or pasted text>` — researches the company, role and pay, checks fit, asks the user about gaps, writes the tailored CV PDF into a new folder under `applications/`.
 
-- `/cv-review [run folder]` — judges a finished CV against its posting as a parser, a recruiter and a hiring manager would; reports what could get it filtered out and what to improve. Defaults to the newest run.
+- `/screen [run folder]` — judges a finished CV against its posting as a parser, a recruiter and a hiring manager would; reports what could get it filtered out and what to improve. Defaults to the newest run.
 
 ## Layout
 

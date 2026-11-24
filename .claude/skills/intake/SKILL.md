@@ -1,9 +1,9 @@
 ---
-name: cv-intake
+name: intake
 description: Build or update the person's master career profile and the CV template from the files in input/. Use for first-time setup, when the user adds a new CV, job, project, certificate or photo, or says "update my profile".
 ---
 
-# cv-intake
+# intake
 
 Goal: `profile/profile.md` holds everything job-related about the user, and `template/cv.html` reproduces their original CV. Read `CLAUDE.md` rules and `cv-guidelines.md` first.
 
@@ -56,4 +56,4 @@ Write each answer into the profile as it arrives. If the user does not know or d
 
 ## 5. Report in chat
 
-Short: what the profile now covers, what is still open, whether the template matches the original, and that `/cv-apply <posting>` is the next step.
+Short: what the profile now covers, what is still open, whether the template matches the original, and that `/apply <posting>` is the next step.
